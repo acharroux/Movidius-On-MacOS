@@ -4,4 +4,4 @@
 
 WIP. Stay tuned
 
-![Architecture Diagram](./Images/Movidius_SDK.SVG)
+![Architecture Diagram](./Images/Movidius_SDK.PNG)
