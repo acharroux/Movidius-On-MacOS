@@ -8,7 +8,7 @@ However, Movidius SDK is made of two parts:
 * **The NCS API**: this part manages communication with Movidius key and allows to upload a model in Movidius format to the Movidius key, upload some inference data and download the inference result. Technically, this part is 'only' a C code using standard libusb to handle a USB conversation so it can run on any OS having libusb and a C compiler.!
 
 
-![Architecture Diagram](Images/Movidius_SDK.SVG)
+![Architecture Diagram](Images/Movidius_SDK.PNG)
 ## Install prerequisites
 
 1. Let's get a *python* install which will not collide with mac's one
