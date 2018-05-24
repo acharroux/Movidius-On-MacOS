@@ -186,6 +186,7 @@ git clone https://github.com/HanYangZhao/NCS-Pi-Stream.git
 cd NCS-Pi-Stream
 python3 streamer_ncs.py
 ```
+open your browser and navigate to http://127.0.0.1:8080/cam.mjpg
 
 ![NCS-Pi-Stream.gif](Images/NCS-Pi-Stream.gif)
 
