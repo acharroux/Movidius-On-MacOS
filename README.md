@@ -59,6 +59,7 @@ find . -name Makefile -exec sed -i -- 's/include\/libusb/local\/include\/libusb/
 # fix an issue with execution rights
 find . -name run.py -exec chmod +x {} \;
 cd api/src
+make all
 sudo make basicinstall pythoninstall
 ```
 Now, you should already be able to load and execute a compiled graph in your Movidius key !!! Let's make the ncdsk check it
